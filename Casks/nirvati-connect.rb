@@ -2,9 +2,9 @@
 cask "nirvati-connect" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.6.0"
-  sha256 arm:   "9fa50969b9d62ca8e5068c4a5008e20f4839534b49afcc5794cb5d37e6de5ad9",
-         intel: "8b86ac778e23c582be3ad5ccf7e5ae45f7387a12924c0d5c9b25f5ba4d4aea85"
+  version "0.6.1"
+  sha256 arm:   "b8ae845abf6ee5de56570f4de32f5dc9191d6dabc9521ec3617774b182c00751",
+         intel: "4ee724dba7082d447cd7b5291ad27a19226ca015bfb46ca373adb809ddab01e0"
 
   url "https://gitlab.com/nirvati-ug/services/nirvati-connect/server/backend/-/releases/v#{version}/downloads/nirvati-connect_#{version}_darwin_#{arch}.pkg",
       verified: "gitlab.com/nirvati-ug/services/nirvati-connect/server/backend/"
